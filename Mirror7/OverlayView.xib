@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MRORMainViewController">
+            <connections>
+                <outlet property="imageView" destination="XQ9-HU-MLw" id="76G-TA-OoY"/>
+                <outlet property="infoButton" destination="fEJ-zG-Cd3" id="aIW-WE-vnb"/>
+                <outlet property="overlayView" destination="1" id="UoH-Rb-uCT"/>
+                <outlet property="pauseButton" destination="usK-ih-iYt" id="N5d-Cs-ic6"/>
+                <outlet property="shareButton" destination="8Bv-Oe-Mmk" id="5xy-aG-ZZ4"/>
+                <outlet property="toolBar" destination="3Al-AF-Iyv" id="vqF-ig-0I0"/>
+                <outlet property="zoomButton" destination="NU3-An-pnS" id="EQE-R4-RdW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XQ9-HU-MLw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Al-AF-Iyv">
+                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <items>
+                        <barButtonItem title="P" id="usK-ih-iYt">
+                            <connections>
+                                <action selector="toggleFreezeScreen:" destination="-1" id="so8-Uf-yZa"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Oln-8p-iem"/>
+                        <barButtonItem title="S" id="8Bv-Oe-Mmk">
+                            <connections>
+                                <action selector="clickShareButton:" destination="-1" id="7sV-hN-X8m"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Eeu-qr-gPl"/>
+                        <barButtonItem title="Z" id="NU3-An-pnS">
+                            <connections>
+                                <action selector="toggleZoom:" destination="-1" id="qri-bf-niL"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="vcI-9P-zUD"/>
+                        <barButtonItem title="I" id="fEJ-zG-Cd3">
+                            <connections>
+                                <action selector="togglePopover:" destination="-1" id="2pY-gp-vPZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <constraints>
+                <constraint firstItem="XQ9-HU-MLw" firstAttribute="top" secondItem="1" secondAttribute="top" id="9dq-Y6-WAP"/>
+                <constraint firstItem="3Al-AF-Iyv" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="H4h-TS-VOS"/>
+                <constraint firstAttribute="trailing" secondItem="3Al-AF-Iyv" secondAttribute="trailing" id="JVa-XH-b2s"/>
+                <constraint firstItem="3Al-AF-Iyv" firstAttribute="leading" secondItem="XQ9-HU-MLw" secondAttribute="leading" id="Ku6-lG-5FU"/>
+                <constraint firstItem="3Al-AF-Iyv" firstAttribute="trailing" secondItem="XQ9-HU-MLw" secondAttribute="trailing" id="Xag-HS-8mO"/>
+                <constraint firstItem="3Al-AF-Iyv" firstAttribute="top" secondItem="XQ9-HU-MLw" secondAttribute="bottom" id="fFx-rg-h7c"/>
+                <constraint firstAttribute="bottom" secondItem="3Al-AF-Iyv" secondAttribute="bottom" id="pGM-S6-BEB"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

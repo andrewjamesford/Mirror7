@@ -1,0 +1,16 @@
+PODS:
+  - ionicons (1.1)
+  - KXKiOS7ColorsAndGradients (1.0.0)
+  - REFrostedViewController (2.4.2)
+
+DEPENDENCIES:
+  - ionicons
+  - KXKiOS7ColorsAndGradients
+  - REFrostedViewController
+
+SPEC CHECKSUMS:
+  ionicons: 50c5368bc6e4dbd1a26559aff0b67f2ed8640c48
+  KXKiOS7ColorsAndGradients: 27cb28a573213b4bc7e9c751956fd6b1b53215f5
+  REFrostedViewController: 87207eece6eda9c888c68d5e1b60b6bde4797142
+
+COCOAPODS: 0.27.1

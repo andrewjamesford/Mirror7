@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-KXKiOS7ColorsAndGradients.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-REFrostedViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ionicons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6E9208DD4228433EBD430179</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84D7611F239A4BA29B66A93F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8635D7850329473A8B7B4204</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD84F29A08B7470DA6F18985</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
