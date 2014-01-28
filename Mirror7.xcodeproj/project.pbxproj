@@ -15,11 +15,6 @@
 		494037DC17FACF01007AC5C5 /* MRORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494037DB17FACF01007AC5C5 /* MRORAppDelegate.m */; };
 		494037E517FACF01007AC5C5 /* MRORMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494037E417FACF01007AC5C5 /* MRORMainViewController.m */; };
 		494037EA17FACF01007AC5C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494037E917FACF01007AC5C5 /* Images.xcassets */; };
-		494037F117FACF01007AC5C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494037F017FACF01007AC5C5 /* XCTest.framework */; };
-		494037F217FACF01007AC5C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494037CB17FACF01007AC5C5 /* Foundation.framework */; };
-		494037F317FACF01007AC5C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494037CF17FACF01007AC5C5 /* UIKit.framework */; };
-		494037FB17FACF01007AC5C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494037F917FACF01007AC5C5 /* InfoPlist.strings */; };
-		494037FD17FACF01007AC5C5 /* Mirror7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494037FC17FACF01007AC5C5 /* Mirror7Tests.m */; };
 		4940380717FAD48A007AC5C5 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4940380617FAD48A007AC5C5 /* OverlayView.xib */; };
 		4940385517FC2B83007AC5C5 /* MRORInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4940385317FC2B83007AC5C5 /* MRORInfoViewController.m */; };
 		4940385617FC2B83007AC5C5 /* MRORInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4940385417FC2B83007AC5C5 /* MRORInfoView.xib */; };
@@ -30,16 +25,6 @@
 		49DD135D181C807100762B32 /* ding1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49DD135C181C807100762B32 /* ding1.mp3 */; };
 		7B240152ECE54205A24DFB14 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA8FBE5D6D64D99955367A2 /* libPods.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		494037F417FACF01007AC5C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 494037C017FACF01007AC5C5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 494037C717FACF01007AC5C5;
-			remoteInfo = Mirror7;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0CA8FBE5D6D64D99955367A2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,9 +41,6 @@
 		494037E417FACF01007AC5C5 /* MRORMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRORMainViewController.m; sourceTree = "<group>"; };
 		494037E917FACF01007AC5C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		494037F017FACF01007AC5C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		494037F817FACF01007AC5C5 /* Mirror7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mirror7Tests-Info.plist"; sourceTree = "<group>"; };
-		494037FA17FACF01007AC5C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		494037FC17FACF01007AC5C5 /* Mirror7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mirror7Tests.m; sourceTree = "<group>"; };
 		4940380617FAD48A007AC5C5 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		4940385217FC2B83007AC5C5 /* MRORInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRORInfoViewController.h; sourceTree = "<group>"; };
 		4940385317FC2B83007AC5C5 /* MRORInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRORInfoViewController.m; sourceTree = "<group>"; };
@@ -66,8 +48,7 @@
 		49501F2B1825E2FA00EBBBAF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		49670CC41832C63300B9080E /* MRORNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRORNavigationController.h; sourceTree = "<group>"; };
 		49670CC51832C63300B9080E /* MRORNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRORNavigationController.m; sourceTree = "<group>"; };
-		4968E03918975B210004CB37 /* Mirror7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror7.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4968E03A18975B210004CB37 /* Mirror7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mirror7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4968E03918975B210004CB37 /* Mirror7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Mirror7.app; path = "/Users/andrew/Dropbox/Mobile/Mirror7/build/Release-iphoneos/Mirror7.app"; sourceTree = "<absolute>"; };
 		49DAD560181D0D1A00D9AC95 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		49DBFE4918330E8000561425 /* taperiffic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taperiffic-logo.png"; sourceTree = "<group>"; };
 		49DBFE4A18330E8000561425 /* taperiffic-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taperiffic-logo@2x.png"; sourceTree = "<group>"; };
@@ -85,16 +66,6 @@
 				494037CC17FACF01007AC5C5 /* Foundation.framework in Frameworks */,
 				49DAD561181D0D1A00D9AC95 /* StoreKit.framework in Frameworks */,
 				7B240152ECE54205A24DFB14 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		494037EC17FACF01007AC5C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				494037F117FACF01007AC5C5 /* XCTest.framework in Frameworks */,
-				494037F317FACF01007AC5C5 /* UIKit.framework in Frameworks */,
-				494037F217FACF01007AC5C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,11 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				494037D117FACF01007AC5C5 /* Mirror7 */,
-				494037F617FACF01007AC5C5 /* Mirror7Tests */,
 				494037CA17FACF01007AC5C5 /* Frameworks */,
 				BB997F9D1A5B4741882528DF /* Pods.xcconfig */,
-				4968E03918975B210004CB37 /* Mirror7.app */,
-				4968E03A18975B210004CB37 /* Mirror7Tests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,24 +130,6 @@
 				494037D717FACF01007AC5C5 /* main.m */,
 				494037D917FACF01007AC5C5 /* Mirror7-Prefix.pch */,
 				49501F2B1825E2FA00EBBBAF /* Constants.h */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		494037F617FACF01007AC5C5 /* Mirror7Tests */ = {
-			isa = PBXGroup;
-			children = (
-				494037FC17FACF01007AC5C5 /* Mirror7Tests.m */,
-				494037F717FACF01007AC5C5 /* Supporting Files */,
-			);
-			path = Mirror7Tests;
-			sourceTree = "<group>";
-		};
-		494037F717FACF01007AC5C5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				494037F817FACF01007AC5C5 /* Mirror7Tests-Info.plist */,
-				494037F917FACF01007AC5C5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,24 +182,6 @@
 			productReference = 4968E03918975B210004CB37 /* Mirror7.app */;
 			productType = "com.apple.product-type.application";
 		};
-		494037EE17FACF01007AC5C5 /* Mirror7Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4940380317FACF01007AC5C5 /* Build configuration list for PBXNativeTarget "Mirror7Tests" */;
-			buildPhases = (
-				494037EB17FACF01007AC5C5 /* Sources */,
-				494037EC17FACF01007AC5C5 /* Frameworks */,
-				494037ED17FACF01007AC5C5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				494037F517FACF01007AC5C5 /* PBXTargetDependency */,
-			);
-			name = Mirror7Tests;
-			productName = Mirror7Tests;
-			productReference = 4968E03A18975B210004CB37 /* Mirror7Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -268,9 +200,6 @@
 							};
 						};
 					};
-					494037EE17FACF01007AC5C5 = {
-						TestTargetID = 494037C717FACF01007AC5C5;
-					};
 				};
 			};
 			buildConfigurationList = 494037C317FACF01007AC5C5 /* Build configuration list for PBXProject "Mirror7" */;
@@ -287,7 +216,6 @@
 			projectRoot = "";
 			targets = (
 				494037C717FACF01007AC5C5 /* Mirror7 */,
-				494037EE17FACF01007AC5C5 /* Mirror7Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,14 +232,6 @@
 				4940385617FC2B83007AC5C5 /* MRORInfoView.xib in Resources */,
 				494037D617FACF01007AC5C5 /* InfoPlist.strings in Resources */,
 				49DD135D181C807100762B32 /* ding1.mp3 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		494037ED17FACF01007AC5C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				494037FB17FACF01007AC5C5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,37 +283,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		494037EB17FACF01007AC5C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				494037FD17FACF01007AC5C5 /* Mirror7Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		494037F517FACF01007AC5C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 494037C717FACF01007AC5C5 /* Mirror7 */;
-			targetProxy = 494037F417FACF01007AC5C5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		494037D417FACF01007AC5C5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				494037D517FACF01007AC5C5 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		494037F917FACF01007AC5C5 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				494037FA17FACF01007AC5C5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -511,48 +407,6 @@
 			};
 			name = Release;
 		};
-		4940380417FACF01007AC5C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mirror7.app/Mirror7";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mirror7/Mirror7-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Mirror7Tests/Mirror7Tests-Info.plist";
-				PRODUCT_NAME = Mirror7Tests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4940380517FACF01007AC5C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mirror7.app/Mirror7";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mirror7/Mirror7-Prefix.pch";
-				INFOPLIST_FILE = "Mirror7Tests/Mirror7Tests-Info.plist";
-				PRODUCT_NAME = Mirror7Tests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,15 +424,6 @@
 			buildConfigurations = (
 				4940380117FACF01007AC5C5 /* Debug */,
 				4940380217FACF01007AC5C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4940380317FACF01007AC5C5 /* Build configuration list for PBXNativeTarget "Mirror7Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4940380417FACF01007AC5C5 /* Debug */,
-				4940380517FACF01007AC5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
