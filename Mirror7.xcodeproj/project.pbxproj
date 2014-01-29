@@ -22,7 +22,6 @@
 		49DAD561181D0D1A00D9AC95 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DAD560181D0D1A00D9AC95 /* StoreKit.framework */; };
 		49DBFE4B18330E8000561425 /* taperiffic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DBFE4918330E8000561425 /* taperiffic-logo.png */; };
 		49DBFE4C18330E8000561425 /* taperiffic-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49DBFE4A18330E8000561425 /* taperiffic-logo@2x.png */; };
-		49DD135D181C807100762B32 /* ding1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49DD135C181C807100762B32 /* ding1.mp3 */; };
 		7B240152ECE54205A24DFB14 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA8FBE5D6D64D99955367A2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,11 +47,10 @@
 		49501F2B1825E2FA00EBBBAF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		49670CC41832C63300B9080E /* MRORNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRORNavigationController.h; sourceTree = "<group>"; };
 		49670CC51832C63300B9080E /* MRORNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRORNavigationController.m; sourceTree = "<group>"; };
-		4968E03918975B210004CB37 /* Mirror7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Mirror7.app; path = "/Users/andrew/Dropbox/Mobile/Mirror7/build/Release-iphoneos/Mirror7.app"; sourceTree = "<absolute>"; };
+		49A2C71918988E780048E4C6 /* Mirror7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DAD560181D0D1A00D9AC95 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		49DBFE4918330E8000561425 /* taperiffic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taperiffic-logo.png"; sourceTree = "<group>"; };
 		49DBFE4A18330E8000561425 /* taperiffic-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taperiffic-logo@2x.png"; sourceTree = "<group>"; };
-		49DD135C181C807100762B32 /* ding1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding1.mp3; sourceTree = "<group>"; };
 		BB997F9D1A5B4741882528DF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +89,7 @@
 				494037D117FACF01007AC5C5 /* Mirror7 */,
 				494037CA17FACF01007AC5C5 /* Frameworks */,
 				BB997F9D1A5B4741882528DF /* Pods.xcconfig */,
+				49A2C71918988E780048E4C6 /* Mirror7.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				49DBFE4818330E5700561425 /* Images */,
-				49DD135B181C804D00762B32 /* Sounds */,
 				493DDBB51816683400D5B263 /* Controllers */,
 				4940380A17FC17A0007AC5C5 /* View */,
 				494037DA17FACF01007AC5C5 /* MRORAppDelegate.h */,
@@ -152,14 +150,6 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		49DD135B181C804D00762B32 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				49DD135C181C807100762B32 /* ding1.mp3 */,
-			);
-			name = Sounds;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,7 +169,7 @@
 			);
 			name = Mirror7;
 			productName = Mirror7;
-			productReference = 4968E03918975B210004CB37 /* Mirror7.app */;
+			productReference = 49A2C71918988E780048E4C6 /* Mirror7.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +221,6 @@
 				4940380717FAD48A007AC5C5 /* OverlayView.xib in Resources */,
 				4940385617FC2B83007AC5C5 /* MRORInfoView.xib in Resources */,
 				494037D617FACF01007AC5C5 /* InfoPlist.strings in Resources */,
-				49DD135D181C807100762B32 /* ding1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
